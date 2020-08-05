@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:#444;
+}
+.clearfix:after{ /*Solving the problem with header sticking*/
+    content:'';
+    display:table;
+    width:100%;
+    clear:both;
+
+}
+div{
+    box-sizing: border-box;/* без деформации блока*/
+}
+
+header{
+    background: url(img/bg2.jpg) no-repeat center top / cover;
+    background-size:1600px 800px;
+    height: 1150px;
+
+}
+/* логотип*/
+.logo{
+    width: 120px;
+    margin: 10px 0 0 0;
+    float:left;
+    box-shadow: 0 5px 14px #B4B4B4;
+}
+.logo:hover{
+    box-shadow: 0 14px 28px #A3A3A3;
+
+}
+.container{
+    width: 1400px;
+    /*border: solid red 2px;*/
+    margin: 0px auto;
+
+
+}
+nav{
+    float: right;
+}
+.menu{
+    padding:0;
+    margin:0;
+    display: block;
+    margin: 5px 0 0 0;
+}
+.menu li{
+    float:left;
+    display:block;
+    margin: 0 20px 0 0;
+}
+.menu /*li*/ a{
+    text-decoration:none;
+    color:#000;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:1.5px;
+    font-size: 35px;
+    border-radius: 50px;
+    transition: background-color .3s linear;
+    padding: 0 20px;
+}
+.menu a:hover{
+    background-color:#BBB;
+}
+nav:after{
+    content:"";
+    display:block;
+    width:615px;
+    height:3px;
+    margin:50px 0 0 0;
+    background-color:#000;
+}
+.zag{
+    text-align: center;
+    margin: 600px 0 0 0;
+    padding:0;
+}
+.span1{
+    color:#F00;
+    font-weight:800;
+}
+.span2{
+    color:#0F0;
+    font-weight:800;
+}
+.span3{
+    color:#00F;
+    font-weight:800;
+}
+h1{
+    font-size: 150px;
+    text-align: center;
+    margin:0;
+}
+.button{
+    background: linear-gradient(#e90b0b 19%, #29e80a 55%,#140ae8 80%);
+    width: 300px;
+    display:block;
+    margin:50px auto;
+    padding: 20px 30px;
+    text-decoration: none;
+    color:#FFF;
+    text-align:center;
+    text-transform:uppercase;
+    font-size: 30px;
+    border-radius: 20px;
+    background-size: 200% 200%;
+    background-position: center top 100%;
+    box-shadow: 0 14px 25px #A3A3A3;
+    transition:background-position .3s linear;
+    font-weight:bold;
+}
+.button:hover{
+    background-position: center top 15%;
+
+}
+.title{
+    padding: 40px 0 0 0;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin:0;
+
+}
+.title p{
+    font-size:16px;
+    font-weight: 300;
+    text-align: center;
+    color:#777;
+    margin:4px;
+}
+.article{
+    margin: 50px 0 0 0;
+
+}
+.art_item{
+    width:270px;
+    float:left;
+    text-align:center;
+
+    box-shadow: 0 14px 25px #A3A3A3;
+}
+.art_item h3{
+    font-size: 30px;
+    font-weight:700;
+    text-transform:uppercase;
+}
+.art_item p{
+    padding: 0px 20px;
+    word-wrap: break-word;
+    line-height: 1.3em;
+    font-size: 20px;
+    text-transform:capitalize;
+}
+.art_item:last-child{
+    float:right;
+}
+.art_item:nth-child(2){
+    margin-left:293px;
+}
+#cont2{
+    margin-top: 40px;
+    background-color:#EEE;
+}
