@@ -34,10 +34,8 @@ header{
 }
 .container{
     width: 1400px;
-    /*border: solid red 2px;*/
+   /* border: solid red 4px;*/
     margin: 0px auto;
-
-
 }
 nav{
     float: right;
@@ -75,7 +73,7 @@ nav:after{
     margin:50px 0 0 0;
     background-color:#000;
 }
-.zag{
+.zagf{
     text-align: center;
     margin: 600px 0 0 0;
     padding:0;
@@ -167,6 +165,43 @@ h1{
     margin-left:293px;
 }
 #cont2{
-    margin-top: 40px;
+    margin: 40px 0 0 0;
     background-color:#EEE;
+    /*border: 3px solid red;*/
+
+}
+.zag{
+    display:flex;
+    flex-decoration:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0px;
+
+}
+.zag1{
+    background-color:white;
+    margin: 10px 40px;
+    box-shadow:0 14px 28px #A3A3A3;
+    width:30%;
+    min-height:400px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+    padding: 0px 20px;
+
+}
+.zag1 h2{
+    font-size: 30px;
+    font-weight:700;
+    text-transform:uppercase;
+}
+.zag1 p{
+    text-transform:capitalize;
+    word-wrap: break-word;
+}
+footer{
+    padding:20px 0 0 0;
+    text-align:center;
+    color:#AAA;
+    background:linear-gradient(45deg, #BBB,#FFF);
+    height:80px;
 }
