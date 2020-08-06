@@ -38,8 +38,17 @@ header{
     margin: 0px auto;
 }
 nav{
-    float: right;
+    float:right;
 }
+.navv{
+    background: linear-gradient(#FFF 20%, #7F7 50%, #aa77ff 100%);
+    background-size: 400% 400%;
+    transition: background-position .3s linear;
+}
+.navv:hover{
+    background-position:center top 100%;
+}
+
 .menu{
     padding:0;
     margin:0;
@@ -63,7 +72,7 @@ nav{
     padding: 0 20px;
 }
 .menu a:hover{
-    background-color:#BBB;
+    background-color:#DDD;
 }
 nav:after{
     content:"";
@@ -180,7 +189,7 @@ h1{
 }
 .zag1{
     background-color:white;
-    margin: 10px 40px;
+    margin:30px 40px;
     box-shadow:0 14px 28px #A3A3A3;
     width:30%;
     min-height:400px;
@@ -203,5 +212,5 @@ footer{
     text-align:center;
     color:#AAA;
     background:linear-gradient(45deg, #BBB,#FFF);
-    height:80px;
+    height:60px;
 }
